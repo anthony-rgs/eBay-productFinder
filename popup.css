@@ -1,0 +1,144 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.header {
+  align-items: center;
+  border-bottom: solid 1px #d1d9d4;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: space-between;
+  padding: 0px 32px;
+}
+
+select {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding-right: 4px;
+}
+
+form {
+  display: grid;
+  padding: 16px 32px 32px 32px;
+  row-gap: 20px;
+  width: 400px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+div {
+  display: grid;
+  row-gap: 8px;
+}
+
+input {
+  border: solid 1px #becac4;
+  border-radius: 90px;
+  outline: none;
+  padding: 12px;
+  transition: all 0.3s ease;
+  width: calc(100% - 24px);
+}
+
+input:hover,
+input:active {
+  border-color: #255ed0;
+}
+
+input:focus {
+  border-color: #255ed0;
+  box-shadow: 0 0 0 4px #255ed040;
+}
+
+button {
+  align-items: center;
+  background-color: #255ed0;
+  border: none;
+  border-radius: 80px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #255ed0e4;
+}
+
+.switch-container {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.switch-container p {
+  font-size: 14px;
+}
+
+.switch {
+  display: inline-block;
+  height: 32px;
+  position: relative;
+  width: 56px;
+}
+
+.switch input {
+  height: 0;
+  opacity: 0;
+  width: 0;
+}
+
+.slider {
+  -webkit-transition: 0.4s;
+  background-color: #fff;
+  bottom: 0;
+  border-radius: 34px;
+  cursor: pointer;
+  left: 0;
+  outline: solid 1.5px #8890a886;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  -webkit-transition: 0.4s;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 4px;
+  content: "";
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 24px;
+}
+
+input:checked + .slider {
+  background-color: #255ed077;
+  box-shadow: 0 0 2px #2196f3;
+  outline: solid 1.5px #255ed077;
+}
+
+.switch input:not(:checked) + .slider:before {
+  background-color: #8890a886;
+}
+
+input:checked + .slider:before {
+  -ms-transform: translateX(24px);
+  -webkit-transform: translateX(24px);
+  transform: translateX(24px);
+}

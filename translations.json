@@ -1,0 +1,32 @@
+{
+  "en": {
+    "input_label": "Product name :",
+    "toggle_label": "View successful sales",
+    "button": "Search",
+    "domain_country": "com"
+  },
+  "fr": {
+    "input_label": "Nom du produit :",
+    "toggle_label": "Voir les ventes réussies",
+    "button": "Rechercher",
+    "domain_country": "fr"
+  },
+  "es": {
+    "input_label": "Nombre del producto :",
+    "toggle_label": "Ver ventas exitosas",
+    "button": "Buscar",
+    "domain_country": "es"
+  },
+  "it": {
+    "input_label": "Nome del prodotto :",
+    "toggle_label": "Visualizza le vendite riuscite",
+    "button": "Cerca",
+    "domain_country": "it"
+  },
+  "de": {
+    "input_label": "Produktname :",
+    "toggle_label": "Erfolgreiche Verkäufe anzeigen",
+    "button": "Suchen",
+    "domain_country": "de"
+  }
+}

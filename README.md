@@ -14,5 +14,3 @@
 
 1. **`tabs`**: To open eBay search pages in a new tab
 2. **`storage`**: To save your preferences like language and toggle settings
-
-_No data is collected or shared with third parties_
